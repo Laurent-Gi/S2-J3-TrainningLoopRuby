@@ -11,13 +11,19 @@
 # 2.1   Say Hello avec des Méthodes (Fonctions)
 
 # 2.1.1 Dis bonjour
+# 2.1.2 Coucou toi (ajout first-name)
+# 2.1.3 Le combo
 
 def say_hello(name)
   puts "Hello #{name}!"
 end
 
-puts "Quel est votre prénom ?"
-print "> "
-first_name = gets.chomp.to_s
+def ask_first_name
+  puts "Quel est votre prénom ?"
+  print "> "
+  return gets.chomp.to_s 
+end
 
-say_hello(first_name)
+# first_name = ask_first_name
+
+say_hello(ask_first_name)
