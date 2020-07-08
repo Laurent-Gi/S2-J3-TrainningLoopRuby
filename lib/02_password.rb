@@ -1,3 +1,15 @@
+# ================================= #
+#                                   #
+# Exercice n°02 en pair learning -  #
+#                                   #
+# Authors : Laurent SAIVES          #
+#                &                  #
+#           Régis PERDREAU          #
+#                                   #
+# ================================= #
+
+# 2.3. Programme 2 : Mon petit mot de passe
+
 def signup
   puts "Veuillez choisir un mot de passe"
   print "> "
