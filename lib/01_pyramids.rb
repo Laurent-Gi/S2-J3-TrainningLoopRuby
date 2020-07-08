@@ -32,7 +32,7 @@ def full_pyramid(number_of_floors)
     print "#" * (2*i-1)
     print " " * (number_of_floors - i)
     print "\n" # "|\n" pour marquer la fin
-  
+
   end
 
 end 
@@ -41,7 +41,7 @@ def wtf_pyramid(number_of_floors)
 
   return if number_of_floors.even?
 
-  puts nb_etage_demi_pyramide = number_of_floors / 2
+  nb_etage_demi_pyramide = number_of_floors / 2
 
   (1..(nb_etage_demi_pyramide+1)).each do | i |
 

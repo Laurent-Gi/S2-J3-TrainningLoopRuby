@@ -1,6 +1,6 @@
 # ================================= #
 #                                   #
-# Exercice n°01 en pair learning -  #
+# Exercice n°00 en pair learning -  #
 #                                   #
 # Authors : Laurent SAIVES          #
 #                &                  #
